@@ -2,17 +2,19 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
- **/
+ * Return: always 0 (success)
+ */
+
 int main(void)
 {
-int i;
-i = 'z';
-while (i >= 'a')
-{
-putchar(i);
-i--;
-}
-putchar('\n');
-return (0);
+	char c;
+
+	c = 'z';
+	while (c >= 'a')
+	{
+		putchar(c);
+		c--;
+	}
+	putchar('\n');
+	return (0);
 }

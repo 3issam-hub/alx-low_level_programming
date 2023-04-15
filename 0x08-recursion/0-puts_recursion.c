@@ -2,8 +2,8 @@
 #include "main.h"
 
 
-int main(){
-    char alert[] = "alert";
-    puts(alert);
-    return 0;
+
+void  _puts_recursion(char *s){
+    puts(s);
 }
+
